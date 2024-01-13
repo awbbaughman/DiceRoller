@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller!</title>
+    <link rel="stylesheet" href="DiceRollerStyle.css">
+    <script src="Dice.js"></script>
+</head>
+<body>
+    
+<header>
+<h2>This is the Dice&nbsp;Roller!</h2>
+</header>
+
+<nav>
+    <p>User Instruction: Click a button to&nbsp;win.</p>
+</nav>
+
+<article>
+    <div>
+    <img src="./Images/die4.png" alt="d4 Die" width="200px">
+    <button class="button" id="d4" onclick="diceRoll(1, 4, 'roll4')">Roll a d4!</button>
+    <h1 id="roll4"></h1>
+    
+    <img src="./Images/die6.png" alt="d6 Die" width="200px">
+    <button class="button" id="d6" onclick="diceRoll(1, 6, 'roll6')">Roll a d6!</button>
+    <h1 id="roll6"></h1>
+
+    <img src="./Images/die8.png" alt="d8 Die" width="180px">
+    <button class="button" id="d8" onclick="diceRoll(1, 8, 'roll8')">Roll a d8!</button>
+    <h1 id="roll8"></h1>
+
+    <img src="./Images/die12.png" alt="d12 Die" width="200px">
+    <button class="button" id="d12" onclick="diceRoll(1, 12, 'roll12')">Roll a d12!</button>
+    <h1 id="roll12"></h1>
+
+    <img src="./Images/die20.png" alt="d20 Die" width="340px">
+    <button class="button" id="d12" onclick="diceRoll(1, 20, 'roll20')">Roll a d20!</button>
+    <h1 id="roll20"></h1>
+</div>
+</article>
+
+<footer>
+    <p>COPYRIGHT INFORMATION: Belongs to&nbsp;me.</p>
+</footer>
+
+</body>
+</html>

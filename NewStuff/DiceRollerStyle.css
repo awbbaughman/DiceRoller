@@ -1,0 +1,68 @@
+* 
+
+body {
+    background-color: white;
+
+}
+
+header {
+    color: #000000;
+    background-color: #f9e887;
+    font-size: 35px;
+    padding: 3rem;
+    text-align: center;
+
+}
+
+nav {
+    border: 2px solid green;
+    background-color: #efefef;
+    font-size: 25px;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+    /*this is just a comment to practice making comments */
+
+}
+
+nav p {
+    color:#000000;
+
+}
+
+article {
+    display: flex;
+    background-color:#ffffff;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+article button {
+    height: 2rem;
+    background-color:#ffea00;
+    font-size:18px;
+    border: 2px solid rgb(63, 63, 255);
+    border-radius: 4px;
+
+}
+
+article div {
+
+padding: 1rem;
+
+}
+
+footer {
+
+    background-color:#82b8a6;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
